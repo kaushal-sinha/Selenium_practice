@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-01-24T18:46:21Z" name="Default suite" finished-at="2018-01-24T18:46:35Z" duration-ms="14596">
+    <groups>
+    </groups>
+    <test started-at="2018-01-24T18:46:21Z" name="Default test" finished-at="2018-01-24T18:46:35Z" duration-ms="14596">
+      <class name="com.demoshop.login.DemoShop1">
+        <test-method signature="alaunchBrowser()[pri:0, instance:com.demoshop.login.DemoShop1@6f45df59]" started-at="2018-01-25T00:16:21Z" name="alaunchBrowser" finished-at="2018-01-25T00:16:35Z" duration-ms="14567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alaunchBrowser -->
+      </class> <!-- com.demoshop.login.DemoShop1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

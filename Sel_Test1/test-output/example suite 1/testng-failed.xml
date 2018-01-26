@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [example suite 1]" guice-stage="DEVELOPMENT">
+  <test name="Regression suite 1(failed)">
+    <parameter name="uname" value="kaushal.kenedysinha@accenture.test"/>
+    <parameter name="pass" value="Tosca1234!"/>
+    <parameter name="url" value="http://demowebshop.tricentis.com"/>
+    <classes>
+      <class name="com.demoshop.login.DemoShop">
+        <methods>
+          <include name="clogout"/>
+          <include name="openCamera"/>
+        </methods>
+      </class> <!-- com.demoshop.login.DemoShop -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
